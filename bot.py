@@ -3,7 +3,7 @@ import logging
 import psycopg2
 from datetime import datetime
 from aiogram import Bot, Dispatcher, types
-from aiogram.utils import executor
+from aiogram import executor
 from dotenv import load_dotenv
 import os
 
